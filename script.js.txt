@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giáng Sinh Lung Linh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="snow"></div>
+
+    <header>
+        <h1>Chúc Mừng Giáng Sinh!</h1>
+    </header>
+
+    <main>
+        <div class="tree-container">
+            <div class="tree">
+                <div class="star"></div>
+                <div class="branch branch-1"></div>
+                <div class="branch branch-2"></div>
+                <div class="branch branch-3"></div>
+                <div class="branch branch-4"></div>
+                <div class="trunk"></div>
+            </div>
+        </div>
+
+        <div class="message">
+            <p>Chúc bạn một mùa Giáng Sinh an lành và hạnh phúc!</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Website Giáng Sinh</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

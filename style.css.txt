@@ -1,0 +1,108 @@
+/* Thiết lập các kiểu chung cho trang */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+    color: #ffcc00;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.tree-container {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.tree {
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+}
+
+.branch {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #228b22;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.branch-1 {
+    top: 0;
+    left: -50px;
+    transform: rotate(-10deg);
+}
+
+.branch-2 {
+    top: 40px;
+    left: -60px;
+    transform: rotate(10deg);
+}
+
+.branch-3 {
+    top: 80px;
+    left: -70px;
+    transform: rotate(-15deg);
+}
+
+.branch-4 {
+    top: 120px;
+    left: -80px;
+    transform: rotate(15deg);
+}
+
+.trunk {
+    width: 50px;
+    height: 80px;
+    background-color: #8b4513;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 35px;
+    box-shadow: 0 0 20px yellow;
+}
+
+.message p {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #ffcc00;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    color: #ffcc00;
+}
+
+.snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: -1;
+}
